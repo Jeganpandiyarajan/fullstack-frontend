@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Sign-in</title>
+</head>
+<style>
+.pic img{
+    width: 1550px;
+    height:850px;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+}
+.head{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#tt{
+    color: white;  
+    width: 300px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    margin-left:10px;
+}
+.tron{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    padding-top: 140px;
+    margin-left: 510px;
+    margin-top: 40px;
+    padding-bottom: 50px;
+    background-color: black;
+    opacity: 0.8;
+    color: black;
+    box-shadow: 12px 12px 12px black ;
+    position:absolute;
+}
+.head form{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    padding-top: 40px;
+    margin-left: 510px;
+}
+
+input{
+    height:50px;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    width: 300px;
+    background: transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input:hover{
+    box-shadow: 2px 2px 4px white;
+    transition: 1s;
+}   
+form button{
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    border-radius: 10px;
+    padding: 12px;
+    width: 300px;
+    font-size: 23px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+form button:hover{
+    box-shadow: 2px 2px 4px red;
+    transition: 1s;
+}
+form a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+form p{
+    text-align: justify;
+    color: white;
+    margin-left:100px;
+    width: 300px;
+}
+.rko{
+        height: 150px;
+        display: flex;
+        gap: 3rem;
+        margin-top: 25px;
+}
+
+.rko p{
+        color: white;
+        text-align: justify;
+        padding-bottom: 20px;
+        margin-left: 110px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.rko a{
+        color: white;
+}
+.rko:last-child{
+        margin-top: 12px;
+ }
+footer{
+        box-shadow: 1px 1px 10px red inset;
+        border:1px solid red;
+}
+footer p{
+        width: 240px;
+        color: white; 
+        margin-left: 670px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+        font-size: 20px;
+ }
+</style>
+<body bgcolor="black"><br>
+    <div class="tron"></div>
+    <div class="head">
+        <img src="22.png" width="130px" height="50px">
+        <form name="myform" id="myform">
+            <h2 id="tt">Sign-in</h2>
+            <input type="text" name="email" placeholder="Email or phone number">
+            <br><br>
+            <input type="password" name="upswd" placeholder="Password" >
+            <br><br>
+            <div id="errorBox"></div>
+            <br><br>
+            <button>Sign-in</button>
+            <a href="#"><p>Forgot password?</p></a>
+            <p>New to Netflix? <a href="file:///C:/Users/jegan/Desktop/html89/Netflix2%20home.html" style="color: rgb(67, 67, 164);">Sign up now.</a></p>
+            <p>This page is protected by Google reCAPTCHA to ensure you're not a bot <br><a href="#" style="color: rgb(67, 67, 164);">Learn more.</a></p>
+            <!-- <button onclick="zfun(); return false;">login</button> -->
+        </form>
+    </div>
+    <div class="pic">
+        <img src="21.jpg" alt="fuck">
+    </div>
+    <div class="rko">
+        <a href="#"><p>Questions? Call 000-800-919-1694<br>
+            FAQ<br>
+            Investor Relations<br>
+            Privacy<br>
+            Speed Test<br>
+            Netflix India
+        </p></a><br>
+        <a href="#"><p>
+            Home center<br>
+            Job<br> 
+            Cookie Preference<br>
+            Legal Notice
+        </p></a><br>
+        <a href="#"><p>
+            Account<br>
+            Ways To Watch<br>
+            Corporate Information<br>
+            Only On Netflix
+        </p></a><br>
+        <a href="#"><p>
+            Media Center<br>
+            Team of us<br>
+            Contact Us
+        </p></a>
+    </div>
+    <footer >
+        <p>Designed by various_eye_i</p>
+    </footer><br><hr>
+</body>
+</html>
