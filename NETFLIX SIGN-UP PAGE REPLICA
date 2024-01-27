@@ -218,6 +218,14 @@
         float: right;
         padding-right:560px;
     }
+    #errorBox{
+        width: 200px;
+        padding: 20px;
+        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+        margin-left: 30px;
+    }
 </style>
 <body bgcolor="black">
     <div class="nav">
@@ -227,7 +235,8 @@
         <div class="roman">
             <p>Unlimited movies, TV shows and more<br> Watch anywhere. Cancel anytime.  </p>  
            <b style="color:white;">Ready to watch? Enter your email to create or restart your membersh</b> <br>
-           <input class="search" placeholder="Email address"><button id="cap">Get started ></button></input>
+           <input class="search" placeholder="Email address" name="start"><button id="cap" name="start" onclick="vfun()">Get started ></button></input>
+           <div id="errorBox"></div>
         </div>
     </div>
     <div class="pic">
@@ -314,5 +323,16 @@
     <footer >
         <p>Designed by various_eye_i</p>
     </footer><hr>
+    <script>
+        function vfun() {
+            var start = document.getElementById("cap").previousElementSibling.value;
+            if (start == null || start.trim() === '') {
+                document.getElementById('errorBox').innerHTML = "Please enter your email.";
+            } else {
+                alert("Welcome to the world of NETFLIX");
+            }
+        }
+    </script>
+    
 </body>
 </html>
