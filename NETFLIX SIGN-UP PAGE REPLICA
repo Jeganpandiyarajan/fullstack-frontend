@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+</head>
+<style>
+    .nav{
+        position: absolute  ;
+        width: 1520px;
+    }
+    .nav img{
+        margin-top: 12px;
+        margin-left: 12px;
+    }
+    #podi{
+        float: right;
+        margin-top: 12px;
+        margin-right:19px;
+        padding:10px;
+        border-radius: 9px;
+        border: 1px solid red;
+        font-weight: bold;
+        background-color: red;
+        color: white;
+        padding-left: 12px;
+        padding-right:12px ;
+    }
+    #podi:hover{
+        box-shadow: 1px 1px 2px red;
+        transition: 1s;
+    }
+    #poda{
+        float: right;
+        margin-top: 12px;
+        margin-right: 20px;
+        padding: 10px;
+        border-radius: 9px;
+        border: 1px solid white; 
+        background: transparent;   
+    }
+    .pic{
+        position: relative;
+        z-index: -1;
+    }
+    .roman{
+        color: white;
+        position: relative;
+        height:600px;
+        margin-left:850px;
+        width: 590px;
+    }
+    .roman p{
+        color:black;
+        margin-top: 120px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+        text-align: center;
+        font-size: 30px;
+    }
+    .roman b{
+        margin-left: 25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .search{
+        padding: 20px;
+        width: 300px;
+        margin-top: 20px;
+        border: 2px solid black;
+        margin-left: 20px;
+        border-radius: 3px;
+        background:transparent;
+    }
+    input{
+        color:white;
+        font-weight: bold;
+        font-size: 17px;
+        border: 1px solid red;
+    }
+    #cap{
+        padding: 19px;
+        background-color: red;
+        margin-left: 20px;
+        border-radius: 10px;
+        color: white;
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .add{
+        color: white;
+        width: 1450px;
+        height: 500px;
+        margin-left: 20px;
+        display:flex;
+    }
+    .add img{
+        height:400px;
+        width:600px;
+        margin-bottom:34px ;
+        margin-top:54px ;
+        margin-left: 850px;
+        border-radius: 20px;
+    }
+    .add img:hover{
+        box-shadow: 20px 20px 20px red;
+        transition: 1s;
+    }
+    .add p{
+        font-weight: bold;
+        position: absolute;
+        margin-left:10px;
+        width: 800px;
+        height: 300px;
+        margin-top:130px;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    u{
+        text-decoration: none;
+        color: red;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 50px;
+    }
+    .sub{
+        color: white;
+        width: 1450px;
+        height: 500px;
+        margin-left: 20px;
+        display:flex;
+        flex-direction: row-reverse;
+    }
+    .sub img{
+        margin-right: 850px;
+        border-radius: 10px;
+        height:400px;
+        width:600px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .sub img:hover{
+        box-shadow: 20px 20px 20px red ;
+        transition: 1s;
+    }
+    .sub p{
+        font-weight: bold;
+        position: absolute;
+        margin-left:10px;
+        width: 800px;
+        height: 300px;
+        margin-top:130px;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .ask{
+        height: 550px;
+    }
+     h1{
+        color:red;
+        font-size: 53px;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .ask :hover{
+       background-color: #403d39;
+       color: white;
+    }
+    .ask details{
+        color: white;
+        background-color:#252422;
+        padding: 20px;
+        margin: 6px;
+        margin-left: 60px;
+        margin-right: 60px;
+        font-size: 23px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    details ins{
+        text-decoration: none;
+    }
+
+    .rko{
+        height: 150px;
+        display: flex;
+        gap: 3rem;
+        margin-top: 25px;
+    }
+
+    .rko p{
+        color: white;
+        text-align: justify;
+        padding-bottom: 20px;
+        margin-left: 110px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .rko a{
+        color: white;
+    }
+    .rko:last-child{
+        margin-top: 12px;
+    }
+    footer{
+        box-shadow: 1px 1px 10px red inset;
+        border:1px solid red;
+    }
+    footer p{
+        width: 240px;
+        color: white; 
+        margin-left: 670px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+        font-size: 20px;
+    }
+    #run{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 12px;  
+    }
+    h1 #run{
+        float: right;
+        padding-right:560px;
+    }
+</style>
+<body bgcolor="black">
+    <div class="nav">
+        <img src="22.png" alt="fuck" width="150px">
+        <p id="poda">English</p>
+        <a href="file:///C:/Users/jegan/Desktop/html89/Netflix%20sign-in.html?email=jeganp469%40gmail.com&upswd="><p id="podi">Sign in</p></a>
+        <div class="roman">
+            <p>Unlimited movies, TV shows and more<br> Watch anywhere. Cancel anytime.  </p>  
+           <b style="color:white;">Ready to watch? Enter your email to create or restart your membersh</b> <br>
+           <input class="search" placeholder="Email address"><button id="cap">Get started ></button></input>
+        </div>
+    </div>
+    <div class="pic">
+        <img src="15.jpg"alt="fuck" width="1520" height="800px">
+    </div>
+    <div class="add">
+       <p><u>Enjoy on your TV :</u><br>
+        Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+       <img src="16.jpg" alt="fuck" >
+    </div><br>
+    <div class="sub">
+            <img src="17.jpg" alt="fuck" >
+            <p style="color: white;"><u>Download your shows to watch offline:</u><br>
+                Save your favourites easily and always have something to watch.</p>
+    </div>
+    <div class="add">
+        <p><u>Watch everywhere:</u><br>
+            Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+        <img id="dead" src="18.jpg" alt="fuck" height="600px" width="600px">
+    </div><br>
+    <div class="sub">
+        <img src="19.jpg" alt="fuck" height="600px" width="600px">
+        <p style="color: white;"><u>Create profiles for kids:</u><br>
+            Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
+    </div>
+    <h1>Frequently Asked Questions <p id="run">(one at a time)</p> </h1>
+    <div class="ask">
+        <details>
+            <summary>What is Netflix?</summary><br>
+            <ins>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.
+
+                You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!</ins>
+        </details>
+        <details>
+            <summary>How much dose Netflix cost?</summary><br>
+            <ins>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹149 to ₹649 a month. No extra costs, no contracts.</ins>
+        </details>
+        <details>
+            <summary>Where can i watch? </summary><br>
+            <ins>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+                You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</ins>
+        </details>
+        <details>
+            <summary>How do I cancel?</summary><br>
+            <ins>Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</ins>
+        </details>
+        <details>
+            <summary>What can i watch on netflix?</summary><br>
+            <ins>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</ins>
+        </details>
+        <details>
+            <summary>Is Netflix good for kids?</summary><br>
+            <ins>The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space.
+
+                Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.</ins>
+        </details>
+    </div><hr>
+    <div class="rko">
+        <a href="#"><p>Questions? Call 000-800-919-1694<br>
+            FAQ<br>
+            Investor Relations<br>
+            Privacy<br>
+            Speed Test<br>
+            Netflix India
+        </p></a><br>
+        <a href="#"><p>
+            Home center<br>
+            Job<br> 
+            Cookie Preference<br>
+            Legal Notice
+        </p></a><br>
+        <a href="#"><p>
+            Account<br>
+            Ways To Watch<br>
+            Corporate Information<br>
+            Only On Netflix
+        </p></a><br>
+        <a href="#"><p>
+            Media Center<br>
+            Team of us<br>
+            Contact Us
+        </p></a>
+    </div><br><br>
+    <footer >
+        <p>Designed by various_eye_i</p>
+    </footer><hr>
+</body>
+</html>
