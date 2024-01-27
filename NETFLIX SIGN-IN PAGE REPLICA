@@ -119,24 +119,30 @@ footer p{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
         font-size: 20px;
  }
+ #errorBox{
+    color: white; 
+    padding: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 200px;
+    margin-left: 130px;
+ }
 </style>
 <body bgcolor="black"><br>
     <div class="tron"></div>
     <div class="head">
         <img src="22.png" width="130px" height="50px">
-        <form name="myform" id="myform">
+        <form name="myform" id="myform" onclick="zfun()">
             <h2 id="tt">Sign-in</h2>
             <input type="text" name="email" placeholder="Email or phone number">
             <br><br>
-            <input type="password" name="upswd" placeholder="Password" >
+            <input type="password" name="upswd" placeholder="Password">
             <br><br>
             <div id="errorBox"></div>
             <br><br>
-            <button>Sign-in</button>
+            <button onclick="zfun();">Sign-in</button>
             <a href="#"><p>Forgot password?</p></a>
             <p>New to Netflix? <a href="file:///C:/Users/jegan/Desktop/html89/Netflix2%20home.html" style="color: rgb(67, 67, 164);">Sign up now.</a></p>
             <p>This page is protected by Google reCAPTCHA to ensure you're not a bot <br><a href="#" style="color: rgb(67, 67, 164);">Learn more.</a></p>
-            <!-- <button onclick="zfun(); return false;">login</button> -->
         </form>
     </div>
     <div class="pic">
@@ -171,5 +177,21 @@ footer p{
     <footer >
         <p>Designed by various_eye_i</p>
     </footer><br><hr>
+    <script>
+        function zfun() {
+          var email = document.getElementById("myform").elements.namedItem("email").value;
+          var upswd = document.getElementById("myform").elements.namedItem("upswd").value;
+          if (email == null || email == "") {
+            document.getElementById('errorBox').innerHTML = "EMAIL ?";
+          }
+          if (upswd == null || upswd == "") {
+            document.getElementById('errorBox').innerHTML = "PASSWORD ?";
+          }
+          if (email != '' && upswd != '') {
+            alert("Login successful");
+          }
+        }
+        </script>
+        
 </body>
 </html>
