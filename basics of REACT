@@ -1,0 +1,29 @@
+import React from 'react';
+
+const Header = () => {
+    let code = "fun";
+    const isLoggedIn = true;
+    const answer = isLoggedIn ? <p> Welcome back!</p> : <p>Sorry</p>;
+    const items = ["jegan", "nithish", "naren", "sarvesh", "joewin"];
+
+    return (
+        <div>
+            <h1 className="head">jegan</h1>
+            <p className="red">poda venna</p>
+            <h1>sjvnkjs</h1>
+            {/* JavaScript expression in JSX */}
+            <p className={code} style={{ fontSize: '34px', fontFamily: 'monospace', margin: '23px' }}>25+50={25 + 50}</p>
+            {/* JS rendering */}
+            {answer}
+            {/* JS list concepts */}
+            <ol>
+                {items.map((item, index) => (<li key={index}>{item}</li>))}
+            </ol>
+            <ul>
+                {items.map((item, index) => (<li key={index}>{item}</li>))}
+            </ul>
+        </div>
+    );
+}
+
+export default Header;
