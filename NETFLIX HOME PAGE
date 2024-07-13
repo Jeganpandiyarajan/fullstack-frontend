@@ -1,0 +1,387 @@
+<html>
+    <head>
+        <title></title>
+        <body bgcolor="black">
+            <style>
+                .nav{
+                    /* border: 1px solid red; */
+                    width: 1700px;
+                    background-color: #333533;
+                    height: 50px;
+                    padding: 11px;
+                    display: flex;
+                    margin-top: -8px;
+                    position: fixed;
+                }
+                .nav li:hover{
+                    color: red;
+                }
+                .nav img{
+                    width: 200px;
+                    height: 50px;
+
+                }
+                #xmen{
+                    color: red ;
+                    display: flex;
+                    padding-left:50px;
+                    /* border: 1px solid red; */
+                    margin-left:400px;
+                    gap: 30px;
+                    font-size: 25px;
+                    margin-top:15px ;
+                }
+                #xmen li{
+                    padding-left: 20px;
+                    list-style: none;
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                }
+                #xmen a{
+                    color: white;
+                    text-decoration: none;
+                }
+                .con{
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    /* border:1px solid red; */
+                    width: 1720px;
+                    height: 400px;
+                    display: flex;
+                    gap: 10px;
+                    overflow-x:scroll;
+                }
+                .con::-webkit-scrollbar{
+                    width: 0;
+                }
+                .the{
+                    width: 400px;
+                    height: 350px;
+                    margin-top: 20px;
+                    margin-left: 20px;
+                }
+                .the:hover{
+                    /* border: 1px solid red; */
+                    box-shadow: 10px 10px 20px red;
+                    transition: 1s;
+                }
+                .the p{
+                    font-size:10px;
+                }
+                h2{
+                    color: white;
+                    margin-left: 30px;
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+                }
+                .the h2{
+                    color: white;
+                    padding-left: 20px;
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+               }
+               .footer{
+                border: 1px solid red;
+                color: white;
+                background-color: white;
+               }
+            </style>
+            <div class="nav">
+                <img src="22.png">
+                <ul id="xmen">
+                    <a href=""><li>Home</li></a>
+                    <a href=""><li>Series</li></a>
+                    <a href=""><li>Movies</li></a>
+                    <a href=""><li>Orignals</li></a>
+                    <a href=""><li>Recentaly Added</li></a>
+                    <a href=""><li>My List</li></a>
+                </ul>
+            </div>
+            <br><br><br><br><br><br>
+            <h2>HOUSE OF DRAGON SEASON 2 :</h2>
+            <div class="con">
+                <div class="the"> 
+                    <video controls width="400" height="250" control poster="1366073.jpeg">
+                    <source src="HOD EP2.mkv" type="video/mp4">
+                    </video>
+                    <h2 color="white">"A Son for a Son"<p>As Alicent grows concerned by Aegon's Small Council, Rhaenyra arrives at a fateful decision.</p></h2>
+                    
+                </div>
+                <div class="the">
+                    <video controls width="400" height="250" control poster="1366072.jpeg">
+                    <source src="HOD EP2.mkv" type="video/mp4">
+                    </video>
+                    <h2 color="white">"Rhaenyra the Cruel"<p>As Otto schemes to turn the public against her, Rhaenyra questions Daemon's loyalty.Ser Criston Cole concocts a misguided plan for revenge.</p></h2>
+                </div>
+                <div class="the">
+                    <video controls width="400" height="250" control poster="1280934.jpg">
+                    <source src="HOD EP3.mkv" type="video/mp4">
+                    </video>
+                    <h2 color="white">"The Burning Mill"<p>As ancient grudges resurface, Rhaenys suggests that Alicent may see reason while the men around her seek bloodshed</p></h2>
+                </div>
+                <div class="the">
+                    <video controls width="400" height="250" control poster="1360748.jpeg">
+                    <source src="HOD EP4.mkv" type="video/mp4">
+                    </video>
+                    <h2 color="white">"The Red Dragon and the Gold"<p>As Rhaenyra makes sure there is no other way to end this conflict but war, dragons flew, and the dance begun.</p></h2>
+                </div>
+                
+            </div>
+            <h2>TAMIL DUBBED :</h2> 
+            <div class="con">
+                <div class="the">
+                    <video controls width="400" height="250" control poster="Joe Movie Images Hd.jpeg">
+                    <source src="@SonyTamizh  - Joe (2023) Tamil HQ HDRip - 250MB - x264 - AA.mkv" type="video/mp4">
+                    </video>
+                    <h2 color="white">Joe (2023)<p>
+                        film about a young man's journey through life's struggles and his quest for redemption and self-discovery.
+                        </p></h2>
+                </div>
+                <div class="the">
+                    <video controls width="400" height="250" control poster="Telugu Audiences Are Going to Love the New Malyalam Blockbuster Premalu!.jpeg">
+                    <source src="www.1TamilMV.yt - Premalu (2024) Tamil HQ HDRip - 1080p - x264 - (DD+5.1 - 192Kbps & AAC) - 2.7GB - ESub.mkv" type="video/mp4">
+                    </video>
+                    <h2 color="white">Premalu (2024)<p>film that revolves around the complexities of romantic relationships and the challenges individuals face in finding true love.
+                    </p></h2>
+                </div>
+                <div class="the">
+                    <video controls width="400" height="250" control poster="» Vikrant Massey-Medha Shankr’s 12th Fail becomes first film in 23 years to achieve THIS milestone; Actor reacts.jpeg">
+                    <source src="12th.Fail.2023.1080p.DSNP.WEB.DL.HEVC.Multi.DDP5.1.192k-DDH.mkv" type="video/mp4">
+                    </video>
+                    <h2 color="white">12th Fail (2023)<p>
+                        12th Fail follows a young man's journey from academic struggle to eventual success.
+                    </p></h2>
+                </div>
+                <div class="the">
+                    <video controls width="400" height="250" control poster="Nagumo.jpeg">
+                    <source src="@SonyTamizh  - Joe (2023) Tamil HQ HDRip - 250MB - x264 - AA.mkv" type="video/mp4">
+                    </video>
+                    <h2 color="white">Hridayam(2022)<p>
+                        a Malayalam film, the story follows the romantic and personal journey of a young man through different phases of his life, exploring themes of love, friendship, and self-discovery.
+                        </p></h2>
+                </div>
+                <div class="the">
+                    <video controls width="400" height="250" control poster="downlo.jpeg">
+                    <source src="@SonyTamizh  - Joe (2023) Tamil HQ HDRip - 250MB - x264 - AA.mkv" type="video/mp4">
+                    </video>
+                    <h2 color="white">Dada(2023)<p>
+                        a carefree young man’s life changes dramatically when he gets involved with a gang, leading him to confront various challenges and grow as a person.
+                        </p></h2>
+                </div>
+                <div class="the">
+                    <video controls width="400" height="250" control poster="download (5).jpeg">
+                    <source src="@SonyTamizh  - Joe (2023) Tamil HQ HDRip - 250MB - x264 - AA.mkv" type="video/mp4">
+                    </video>
+                    <h2 color="white">Love Today(2022)<p>
+                        a couple's relationship is tested when they swap phones for a day, uncovering secrets and causing complications.
+                        </p></h2>
+                </div>
+                <div class="the"> 
+                    <video controls width="400" height="250" control poster="Jawan _ Official Hindi Trailer _ Shah Rukh Khan _ Atlee _ Nayanthara _ Vijay S _ Deepika P _ Anirudh.jpeg">
+                    <source src="Jawan 2023 HD.mp4" type="video/mp4">
+                    </video>
+                    <h2 color="white">
+                        Jawan(2023)<p>
+                        film about a man seeking justice for his family and country, who takes on a corrupt system and fights for the well-being of the people.</p></h2>
+                    
+                </div>
+            </div>
+            <h2>ALL OF US ARE DEAD :</h2> 
+            <div class="con">
+                <div class="the"> 
+                    <video controls width="400" height="250" control poster="1208953 (1).jpg"> 
+                    <source src="All Of Us Are Dead Season 01 Epi 1) HD.mp4" type="video/mp4">
+                    </video>
+                    <h2 color="white">Episode 1<p>Inside Lee Byeong-Chan's science lab, a student incurs a seemingly harmless bite. Shortly after, a fast-spreading outbreak soaks the school in blood.</p></h2>
+                    
+                </div>
+                <div class="the">
+                    <video controls width="400" height="250" control poster="1208927 (1).jpg">
+                    <source src="All Of Us Are Dead Season 01 Epi 2) HD.mp4" type="video/mp4">
+                    </video>
+                    <h2 color="white">Episode 2<p>The infected multiply in droves. Scrambling for their lives, Nanm On-Jo and Lee Cheong-San find safety with others inside a classroom-but not for long.</p></h2>
+                </div>
+                <div class="the">
+                    <video controls width="400" height="250" control poster="1213613.jpg">
+                    <source src="All Of Us Are Dead Season 01 Epi 3) HD.mp4" type="video/mp4">
+                    </video>
+                    <h2 color="white">Episode 3<p>When one of the group is scratched while fighting a zombie, Lee Na-yeon demands they kick him out. Outside, the virus swallows up the city.</p></h2>
+                </div>
+                <div class="the">
+                    <video controls width="400" height="250" control poster="1208929.jpg">
+                    <source src="All Of Us Are Dead Season 01 Epi 4) HD.mp4" type="video/mp4">
+                    </video>
+                    <h2 color="white">Episode 4 :<p>In need of a cellphone, two students take a risky journey to the teachers' office. Byeong-chan passes on critical information to Detective Song Jae-ik.</p></h2>
+                </div>
+                <div class="the">
+                    <video controls width="400" height="250" control poster="1208956.jpg">
+                    <source src="All Of Us Are Dead Season 01 Epi 5) HD.mp4" type="video/mp4">
+                    </video>
+                    <h2 color="white">Episode 5 :<p>Martial law is imposed on the city. When Cheong-san is separated from the rest of the group, On-jo leads a mission to use a drone to locate him.</p></h2>
+                </div>
+                <div class="the">
+                    <video controls width="400" height="250" control poster="1208941.jpg">
+                    <source src="All Of Us Are Dead Season 01 Epi 6) HD.mp4" type="video/mp4">
+                    </video>
+                    <h2 color="white">Episode 6 :<p>The group clears a path to Cheong-an using sound to draw away the zombies, but a new type of threat surfaces. Nam So-ju breaks out of the quarantine camp</p></h2>
+                </div>
+                <div class="the">
+                    <video controls width="400" height="250" control poster="1208951.jpg">
+                    <source src="All Of Us Are Dead Season 01 Epi 7) HD.mp4" type="video/mp4">
+                    </video>
+                    <h2 color="white">Episode 7 :<p>To make it out of the music room and onto the roof, the students put into action their most perilous plan yet. Elsewhere, Jae-ik comes across a setback.</p></h2>
+                </div>
+                <div class="the">
+                    <video controls width="400" height="250" control poster="1208954.jpg">
+                    <source src="All Of Us Are Dead Season 01 Epi 8) HD.mp4" type="video/mp4">
+                    </video>
+                    <h2 color="white">Episode 8 :<p>Jae-ik and his crew run into a student from the school. Na-yeon works up the courage to face her peers. The group shares confessions around a fire.</p></h2>
+                </div>
+                <div class="the">
+                    <video controls width="400" height="250" control poster="1208939.jpg">
+                    <source src="All Of Us Are Dead Season 01 Epi 9) HD.mp4" type="video/mp4">
+                    </video>
+                    <h2 color="white">Episode 9 :<p>A disturbance at the quarantine camp shifts the military's understanding of the virus. A thunderstorm provides cover as the group agrees to keep on moving.</p></h2>
+                </div>
+                <div class="the">
+                    <video controls width="400" height="250" control poster="1213604.jpg">
+                    <source src="All Of Us Are Dead Season 01 Epi 10) HD.mp4" type="video/mp4">
+                    </video>
+                    <h2 color="white">Episode 10 :<p>The auditorium quickly becomes a trap for the two newly united teams of survivors. Byeong-chan's video logs reveal a drastic solution to the crisis.</p></h2>
+                </div>
+                <div class="the">
+                    <video controls width="400" height="250" control poster="1208938.jpg">
+                    <source src="All Of Us Are Dead Season 01 Epi 11) HD.mp4" type="video/mp4">
+                    </video>
+                    <h2 color="white">Episode 11 :<p>Though a surprise protector provides the group safe passage to their next stop, Yoon Gwi-nam is not far behind. The military makes a grave decision</p></h2>
+                </div>
+                <div class="the">
+                    <video controls width="400" height="250" control poster="1208933.jpg">
+                    <source src="All Of Us Are Dead Season 01 Epi 12) HD.mp4" type="video/mp4">
+                    </video>
+                    <h2 color="white">Episode 12 :<p>The students make it to the quarantine camp, each of them weighed down by tragic loss. Months later, they hang on to hope for a survivor.</p></h2>
+                </div>
+
+            </div>
+            <h2>Pirates Of The Caribbean :</h2>
+            <div class="con">
+                <div class="the">
+                    <video controls width="400" height="250" control poster="duck.jpeg">
+                    <source src="Pirates Of The Caribbean 1 (2003) HD (640x360).mp4" type="video/mp4">
+                    </video>
+                    <h2 color="white">Curse Of The Pearl(2003)<p>A blacksmith and a pirate team up to rescue a governor's daughter from cursed pirates.</p></h2>
+                    
+                </div>
+                <div class="the">
+                    <video controls width="400" height="250" control poster="81279.jpg">
+                    <source src="Pirates Of The Caribbean 2 (2006) HD (640x360).mp4" type="video/mp4">
+                    </video>
+                    <h2 color="white">Dead Man's Chest(2006)<p>
+                        Captain Jack Sparrow races to recover the heart of Davy Jones to avoid eternal servitude.</p></h2>
+                </div>
+                <div class="the">
+                    <video controls width="400" height="250" control poster="22815.jpg">
+                    <source src="Pirates Of The Caribbean 3 (2007) HD (640x360).mp4" type="video/mp4">
+                    </video>
+                    <h2 color="white"> At World's End(2007)<p>Pirates unite to save Jack Sparrow and defeat the East India Company.</p></h2>
+                </div>
+                <div class="the">
+                    <video controls width="400" height="250" control poster="286658.jpg">
+                    <source src="Pirates Of The Caribbean 4 (2011) Single Part HD.mp4" type="video/mp4">
+                    </video>
+                    <h2 color="white">On Stranger Tides(2011)<p>
+                        Jack Sparrow searches for the Fountain of Youth while facing off against Blackbeard.</p></h2>
+                </div>
+                <div class="the">
+                    <video controls width="400" height="250" control poster="836747.jpg">
+                    <source src="Pirates Of The Caribbean 5 2017 720p HD.mp4" type="video/mp4">
+                    </video>
+                    <h2 color="white">Dead Men Tell No Tales(2011)<p>Jack Sparrow seeks the Trident of Poseidon while being pursued by a vengeful ghost pirate.</p></h2>
+                </div>
+                
+            </div>
+            <h2>FANTASY :</h2> 
+            <div class="con">
+                <div class="the"> 
+                    <video controls width="400" height="250" control poster="1298837.jpg">
+                    <source src="Damsel.2024.mkv" type="video/mp4">
+                    </video>
+                    <h2 color="white">Damsel(2024)<p>
+                        A damsel is a young woman or girl, often depicted as being in distress and needing rescue.</p></h2>
+                    
+                </div>
+                <div class="the">
+                    <video controls width="400" height="250" control poster="1346408.jpeg">
+                    <source src="@HUB_LinkZz_Aquaman_and_the_Lost_Kingdom_2023_1080p_10bit_WEBRip.mkv" type="video/mp4">
+                    </video>
+                    <h2 color="white">Aquaman Lost Kingdom (2023)<p>Aquaman teams up with unlikely allies to protect Atlantis and the world from a devastating ancient threat.
+                    </p></h2>
+                </div>
+                <div class="the">
+                    <video controls width="400" height="250" control poster="1336452.jpg">
+                    <source src="The.Marvels.2023.2160p.HDR10Plus.DV.WEBRip.6CH.x265.HEVC.mkv" type="video/mp4">
+                    </video>
+                    <h2 color="white">The Marvels (2023)<p>Three superheroes, Captain Marvel, Ms. Marvel, and Monica Rambeau, team up to save the universe as their powers become mysteriously intertwined.
+                    </p></h2>
+                </div>
+                <div class="the">
+                    <video controls width="400" height="250" control poster="928994.jpg">
+                    <source src="Kung_fu_Panda_2024_1080p_HDRip_x264_Tam_+_Tel_+_Hin.mkv" type="video/mp4">
+                    </video>
+                    <h2 color="white">Kung Fu Panda<p>
+                        A clumsy panda becomes the unlikely hero and kung fu master destined to save his valley from an evil snow leopard.
+                        </p></h2>
+                </div>
+            </div>
+            <h2>MARVEL-WHAT IF :</h2> 
+            <div class="con">
+                <div class="the"> 
+                    <video controls width="400" height="250" control poster="1230103.png">
+                    <source src="What_If_2021_S02E05[_47847].mkv" type="video/mp4">
+                    </video>
+                    <h2 color="white">"Captain Carter Fought the Hydra Stomper?"<p>
+                        Captain Carter's mission to save Steve Rogers sets her on a collision course with new enemies.</p></h2>
+                </div>
+                <div class="the">
+                    <video controls width="400" height="250" control poster="Kahhori What if S2.jpeg">
+                    <source src="What_If_2021_S02E06[_47944].mkv" type="video/mp4">
+                    </video>
+                    <h2 color="white">" Kahhori Reshaped the World?"<p>A Mohawk woman ventures into the waters of the Forbidden Lake to help save her people.
+                    </p></h2>
+                </div>
+                <div class="the">
+                    <video controls width="400" height="250" control poster="Hela.jpeg">
+                    <source src="What_If_2021_S02E07[_48010].mkv" type="video/mp4">
+                    </video>
+                    <h2 color="white">"Hela Found the Ten Rings?"<p>Hela - stripped of her powers and banished to Earth - comes across a new source of power: the Ten Rings.
+                    </p></h2>
+                </div>
+                <div class="the">
+                    <video controls width="400" height="250" control poster="Peggy Carter and Steve Rogers.jpeg">
+                    <source src="What_If_2021_S02E08[_48114].mkv" type="video/mp4">
+                    </video>
+                    <h2 color="white">"The Avengers Assembled in 1602?"<p>
+                        Captain Carter tries to undo the anomaly that strands familiar heroes and villains in 1602.
+                        </p></h2>
+                </div>
+                <div class="the">
+                    <video controls width="400" height="250" control poster="download (4).">
+                    <source src="What_If_2021_S02E09[_48155].mkv" type="video/mp4">
+                    </video>
+                    <h2 color="white">"Strange Supreme Intervened?"<p>
+                        Strange asks Peggy to help with an adversary. But this demented sorcerer is keeping a secret from his old friend.
+                    </p></h2>
+                </div>
+                <div class="the">
+                    <video controls width="400" height="250" control poster="Tony Stark & Gamora.jpeg">
+                    <source src="What_If_2023_S02E04[_47727].mkv" type="video/mp4">
+                    </video>
+                    <h2 color="white">"Iron Man Crashed Into the Grandmaster?"<p>
+                        Tony Stark challenges The Grandmaster, leading to a grand prix-turned-demolition-derby death match.
+                    </p></h2>
+                </div>
+                
+            </div>
+            <footer>
+                <h1> JEGAN P </h1>
+            </footer>
+        </body>
+    </head>
+</html>
